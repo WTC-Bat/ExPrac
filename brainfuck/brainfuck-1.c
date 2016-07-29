@@ -31,7 +31,6 @@ static void	interpret(char *bytes, char **args)
 	int		cnt;
 	int		scnt;
 	int		bracket;
-	int		bcnt;
 
 	cnt = 0;
 	scnt = 1;

@@ -6,5 +6,8 @@ echo
 echo ./a.out "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>--------.>+++++.>." \| cat -e
 ./a.out "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>--------.>+++++.>." | cat -e
 echo
-echo ./a.out | cat -e
+echo ./a.out \| cat -e
+echo
+echo Removing "a.out"
+rm -rf a.out
 echo
