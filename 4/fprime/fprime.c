@@ -8,7 +8,6 @@ static void	fprime(int num)
 	while (1)
 	{
 		cnt = 2;
-		//while (++cnt <= num)
 		while (cnt <= num)
 		{
 			if (num % cnt == 0)
