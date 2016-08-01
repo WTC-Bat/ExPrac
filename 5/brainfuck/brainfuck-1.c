@@ -16,7 +16,7 @@ static void	ft_putstr(char *str)
 
 static void	init(char *bytes, unsigned int size)
 {
-	int		cnt;
+	unsigned int	cnt;
 
 	cnt = 0;
 	while (cnt < size)
