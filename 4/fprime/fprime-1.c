@@ -10,7 +10,6 @@ static void	fprime(int num)
 
 	cnt = 1;
 	fcnt = 0;
-	//pcnt = 0;
 	while (cnt <= num)
 	{
 		pcnt = 0;
@@ -39,9 +38,8 @@ int		main(int argc, char **argv)
 {
 	int		num;
 
-	if (argc != 2) //argc < 2
+	if (argc != 2)
 	{
-		//write(1, "\n", 1);
 		printf("\n");
 		return (1);
 	}
