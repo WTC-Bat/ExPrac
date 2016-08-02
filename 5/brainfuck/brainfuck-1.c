@@ -1,19 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-static void	ft_putstr(char *str)
-{
-	int		cnt;
-
-	cnt = 0;
-	while (str[cnt] != '\0')
-	{
-		write(1, &str[cnt], 1);
-		cnt++;
-	}
-	write(1, "\n", 1);
-}
-
 static void	init(char *bytes, unsigned int size)
 {
 	unsigned int	cnt;
